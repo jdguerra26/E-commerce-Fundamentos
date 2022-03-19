@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&family=DM+Sans&display=swap');
+
+* {
+  margin: 0%;
+  padding: 0%;
+  font-family: 'DM Sans', sans-serif;
+}  
+  /* HEADER */
+  header {
+    height: 10vh;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    position: fixed;
+  }
+  header > img {
+    height: 80%;
+  }
+  .nav > a {
+    color: white;
+    text-decoration: none;
+    padding-left: 20px;
+  }
+  .nav > a:hover {
+    color: #cfc219;
+  }
+  main {
+    height: 90vh;
+    padding-top: 12vh;
+  }
+  .main{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    flex-direction: column;
+    background-color: #cfc219;
+  }
+  h2{
+    color: white;
+    font-family: 'Alfa Slab One', cursive;
+  }
+
+  tr{
+    padding:10px;
+    border-bottom: 2px solid black;
+  }
+table{
+  height: 20vh;
+    width: 60%;
+    padding: 10px;
+    border-collapse: collapse;
+    border-radius: 10px;
+}
+thead{
+  background-color: white;
+}
+.title-carrito{
+  margin-bottom: 50px;
+  font-size: 3em;
+  font-family: 'Alfa Slab One', cursive;
+}
